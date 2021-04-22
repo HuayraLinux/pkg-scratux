@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Scratux
+Comment=Block-based Visual Programming
+Comment[es]=Programacion visual basada en bloques
+Exec=/usr/bin/scratux
+Terminal=false
+Type=Application
+Categories=Programming;Education;
+Icon=scratux

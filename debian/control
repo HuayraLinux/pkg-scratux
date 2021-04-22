@@ -1,0 +1,28 @@
+Source: scratux
+Section: education
+Priority: extra
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
+Build-Depends: debhelper (>= 9.0.0), ca-certificates, wget, git, nodejs
+Standards-Version: 3.9.3
+Homepage: http://github.com/HuayraLinux/pkg-scratux
+Vcs-Git: git://github.com/HuayraLinux/pkg-scratux.git
+Vcs-Browser: https://github.com/HuayraLinux/pkg-scratux
+
+Package: scratux
+Architecture: all
+Depends: ${misc:Depends}
+Description: A block-based visual programming language.
+ Targeted primarily at children. Users can create projects using a block-like
+ interface.  With Scratux, you can program your own interactive stories, games,
+ and animations  and share your creations with others in the online community.
+ .
+ Basically Scratux is a simple project that aims to provide Free/Libre Open 
+ Source Linux binaries of Scratch Desktop. Since the official Scratch project 
+ does not provide binaries for Linux distributions, we created this project so 
+ you do not have to download + build from source. Just click and install it.
+ .
+ Scratux is built-in different languages and is always based on the latest 
+ stable Scratch Desktop release. 
+ .
+ Currently it is fetching Scratch Desktop 3.10.2
+ 
