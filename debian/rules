@@ -33,4 +33,4 @@ override_dh_auto_configure:
 	wget https://nodejs.org/dist/$(NODE_VERSION)/$(NODE_TARBALL)
 	tar xvf $(NODE_TARBALL)
 	PATH=$(CURDIR)/$(NODE_FILENAME)/bin:$(PATH) ./fetch.sh
-	PATH=$(CURDIR)/$(NODE_FILENAME)/bin:$(PATH) npm run dist:dir
+	cd src && PATH=$(CURDIR)/$(NODE_FILENAME)/bin:$(PATH) npm run dist:dir
